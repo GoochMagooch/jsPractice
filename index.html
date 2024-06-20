@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,6 +17,42 @@
     </div>
     <div style="text-align: center;">
         <p id="convert_text"></p>
+    </div>
+    
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelvin Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .form, .output {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;">Convert Kelvin to Celsius and Fahrenheit</h1>
+
+    <div class="form">
+        <input type="text" id="k" placeholder="Enter Kelvin value">
+        <button id="btn">CONVERT</button>
+    </div>
+    <div class="output">
+        <p id="convert_text"></p>
+        <p id="error_message" class="error"></p>
     </div>
     
 </body>
