@@ -17,6 +17,10 @@ body {
     color: rgb(194, 13, 13);
 }
 
+#convert_text {
+    font-weight: bold;
+}
+
 .error {
     color: red;
 }
