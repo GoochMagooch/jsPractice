@@ -13,7 +13,7 @@ function convert() {
         const c = kel - 273.15;
         const f = (kel - 273.15) * 1.8 + 32;
         ct.textContent = `Celsius: ${c.toFixed(2)} || Fahrenheit: ${f.toFixed(2)}`;
-        err.textContent = "";
+        err.textContent = '';
     }
 }
 
