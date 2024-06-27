@@ -6,7 +6,7 @@ const err = document.getElementById('error_message');
 function convert() {
     let kel = k.value
 
-    if (isNaN(kel) || kel == "") {
+    if (isNaN(kel) || kel == '') {
         err.textContent = 'Please enter a valid number for Kelvin.';
         ct.textContent = '';
     } else {
